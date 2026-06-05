@@ -137,8 +137,8 @@ export const pythonLessons: LessonUnit[] = [
         id: "py_q4",
         type: "fill-gap",
         prompt: "isim isminde bir değişken tanımlayıp değerini 'Taha' yapan kodu tamamlayın.",
-        codeSnippet: "___ = 'Taha'",
-        correctAnswer: "isim"
+        codeSnippet: "isim = ___'Taha'",
+        correctAnswer: ""
       }
     ]
   },

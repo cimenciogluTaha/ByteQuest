@@ -1,6 +1,6 @@
 import React from "react";
 import { LeaderboardUser, Language, getLanguageMascot } from "../types";
-import { ArrowUp, ArrowDown, Minus, Crown } from "lucide-react";
+import { Award, ArrowUp, ArrowDown, Minus, Crown, Flame } from "lucide-react";
 import { motion } from "motion/react";
 
 interface LeaderboardProps {

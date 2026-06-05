@@ -180,7 +180,7 @@ export default function LessonTree({
                     </p>
                   ) : (
                     <p className="text-[10px] text-amber-500 font-extrabold mt-1 uppercase tracking-widest animate-pulse">
-                      HAZIR GÖREV (25⚡)
+                      HAZIR GÖREV (20⚡)
                     </p>
                   )}
                 </div>
@@ -279,7 +279,7 @@ export default function LessonTree({
               isLight ? "text-slate-600" : "text-slate-400"
             }`}>
               <Clock className="w-4 h-4 text-amber-500" />
-              <span>Her yeni ders maliyeti: <b className="text-amber-500 font-extrabold">25⚡ Enerji</b></span>
+              <span>Her yeni ders maliyeti: <b className="text-amber-500 font-extrabold">20⚡ Enerji</b></span>
             </div>
           </div>
         </div>

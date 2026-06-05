@@ -24,16 +24,26 @@ import {
   initialStats 
 } from "./data";
 import { 
+  Award, 
+  BookOpen, 
+  Check, 
   ChevronRight, 
-  Crown,
+  Compass, 
+  Flame, 
+  Heart, 
+  HelpCircle, 
   MessageSquare, 
-  Moon,
   RefreshCw, 
   Send, 
-  Sun,
+  ShieldCheck, 
   Terminal, 
+  Trophy, 
+  User, 
   X, 
-  Zap
+  Zap,
+  Moon,
+  Sun,
+  Crown
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 

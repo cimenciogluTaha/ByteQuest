@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { UserStats, Language } from "../types";
-import { Zap, RefreshCw, Trophy, Clock, CheckCircle, XCircle } from "lucide-react";
+import { Zap, RefreshCw, Trophy, Heart, Clock, CheckCircle, XCircle } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 interface TriviaArenaProps {
@@ -188,7 +188,7 @@ export default function TriviaArena({ stats, onReward, theme = "dark" }: TriviaA
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [timeLeft, gameState, score, onReward]);
+  }, [timeLeft, gameState]);
 
   const handleSelectOption = (option: string) => {
     if (answerResult) return; // Prevent double taps
