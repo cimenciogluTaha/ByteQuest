@@ -1,0 +1,26 @@
+{
+  "name": "ByteQuest Coding Academy",
+  "short_name": "ByteQuest",
+  "description": "Python, Java ve C# dillerini oyunlaştırılmış ders ağacı, haftalık ligler ve yapay zeka kod asistanıyla öğrenin.",
+  "start_url": "/",
+  "id": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "categories": ["education", "games", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

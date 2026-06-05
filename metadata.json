@@ -1,0 +1,6 @@
+{
+  "name": "ByteQuest",
+  "description": "Python, Java ve C# dillerini oyunlastırılmıs ders agacı, haftalık görevler, sıralama tablosu, rozetler ve yapay zeka kod asistanıyla ögreten PWA uyumlu interaktif platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
